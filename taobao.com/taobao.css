@@ -1,0 +1,106 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.navtopout{
+	height: 36px;
+	background-color: #F5F5F5;
+}
+.navtopin{
+	height: 36px;
+	width: 1200px;
+	background-color: #F5F5F5;
+	margin: 0 auto;
+}
+.ulleft{
+	list-style-type: none;
+}
+.lileft{
+	float: left;
+	font-size: 0.6em;
+	margin-right: 15px;
+	margin-left: 3px;
+	line-height: 30px;
+	text-align: center;
+}
+#region{
+	color: #3C3C3C;
+	margin-right: 20 px;
+}
+#user{
+	color: #F22E00;
+}
+#signup{
+	color: #6C6C6C;
+}
+#mobile{
+	color: #6C6C6C;
+}
+.ulright{
+	list-style-type: none;
+}
+.liright{
+	float: right;
+	font-size: 0.6em;
+	margin-right: 25px;
+	margin-left: 10px;
+	line-height: 30px;
+	text-align: center;
+	color: #6C6C6C;
+}
+.logo{
+	position: absolute;
+	top: 65px;
+	left: 103px;
+	height: 63px;
+	width: 143px;
+	display: block;
+	background-repeat: no-repeat;
+}
+
+.searchbox{
+	position: absolute;
+	top: 80px;
+	left: 340px;
+	height: 38px;
+	width: 635px;
+	border: 2px solid #f40;
+	border-radius: 25px;
+}
+.searchbutton img{
+	position: absolute;
+	left: 565px;
+	top: -2px;
+	width: 75px;
+	height: 42px;
+}
+.camera{
+	position: absolute;
+	left: 530px;
+	top: 7px;
+	height: 100px;
+}
+.searchbox::before{
+	position: absolute;
+	left: 9px;
+	top: 9px;
+	content: url(searchlogo.png);
+}
+.suggested{
+	position: absolute;
+	top: 125px;
+	left: 340px;
+}
+.ulsuggested{
+	list-style-type: none;
+}
+.lisuggested{
+	float: left;
+	font-size: 0.6em;
+	margin-right: 10px;
+	margin-left: 3px;
+	line-height: 25px;
+	text-align: center;
+	color: #6C6C6C;
+}
